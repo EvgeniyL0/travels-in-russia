@@ -1,0 +1,19 @@
+.video__item-content {
+    position: absolute;
+    left: 6.6%;
+    top: 10.4%;
+    width: 86.8%;
+    height: 79.2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 374px) {
+    .video__item-content {
+        left: 5.5%;
+        top: 8.3%;
+        width: 89%;
+        height: 83.4%;
+    }
+}

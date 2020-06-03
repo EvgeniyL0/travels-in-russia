@@ -1,0 +1,7 @@
+.lead__image {
+    position: relative;
+    width: 100%;
+    padding-bottom: 55%;
+    background-image: url("../../../../images/car_seat.jpg");
+    background-size: cover;
+}

@@ -1,0 +1,16 @@
+@import url("./_place/content-title_place_lead.css");
+@import url("./_place/content-title_place_intro.css");
+@import url("./_place/content-title_place_places.css");
+@import url("./_place/content-title_place_video.css");
+@import url("./_place/content-title_place_additional.css");
+@import url("./_place/content-title_place_comments.css");
+@import url("./_place/content-title_place_cover.css");
+@import url("./_place/content-title_place_emblem.css");
+@import url("./_place/content-title_place_barentsburg.css");
+
+.content-title {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: #ffffff;
+}

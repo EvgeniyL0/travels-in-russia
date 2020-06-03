@@ -1,0 +1,30 @@
+.content-subtitle_place_cover {
+    width: 80%;
+    max-width: 382px;
+    margin-left: auto;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 1.44;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .content-subtitle_place_cover {
+        font-size: calc((18 / 768) * 100vw);
+    }  
+}
+
+@media screen and (max-width: 598px) {
+    .content-subtitle_place_cover {
+        font-size: 14px;
+        line-height: 1.2;
+    }  
+}
+
+@media screen and (max-width: 320px) {
+    .content-subtitle_place_cover {
+        width: 100%;
+    }  
+}

@@ -1,0 +1,19 @@
+@import url("./__link/menu__link.css");
+
+.menu {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+}
+
+@media screen and (max-width: 767px) {
+    .menu {
+        width: 100%;
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 509px) {
+    .menu {
+        width: 40%;
+    }
+}

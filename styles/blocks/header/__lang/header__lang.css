@@ -1,0 +1,33 @@
+@import url("./_current/header__lang_current.css");
+
+.header__lang {
+    margin-right: 18px;
+    font-size: 24px;
+    line-height: 0.96;
+    text-align: right;
+    color: #ffffff;
+}
+
+.header__lang:last-of-type {
+    margin-right: 0;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .header__lang {
+        font-size: calc((24 / 768) * 100vw);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header__lang{
+        font-size: 18px;
+        line-height: 17px;
+    }    
+}
+
+@media screen and (max-width: 425px) {
+    .header__lang{
+        margin-right: 16px;
+    }    
+}

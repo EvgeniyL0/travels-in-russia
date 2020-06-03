@@ -1,0 +1,25 @@
+.places__description {
+    font-size: calc((18 / 1024) * 100vw);
+    line-height: 1.67;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 1025px) {
+    .places__description {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__description {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .places__description {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

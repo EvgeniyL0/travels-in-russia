@@ -1,0 +1,21 @@
+@import url("./__author-and-date/intro__author-and-date.css");
+@import url("./__content-row/intro__content-row.css");
+@import url("./__facts/intro__facts.css");
+@import url("./__text/intro__text.css");
+
+.intro {
+    width: 90%;
+    max-width: 985px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 425px) {
+    .intro {
+        padding-top: 64px;
+    }
+}

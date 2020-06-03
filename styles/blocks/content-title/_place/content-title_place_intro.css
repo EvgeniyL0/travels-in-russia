@@ -1,0 +1,20 @@
+.content-title_place_intro {
+    margin-top: 0;
+    margin-bottom: 48px;
+    font-size: 54px;
+    line-height: 1.1;
+}
+
+@media screen and (max-width: 768px) {
+    .content-title_place_intro {
+        font-size: calc((54 / 768) * 100vw);
+    }  
+}
+
+@media screen and (max-width: 456px) {
+    .content-title_place_intro {
+        width: 73%;
+        font-size: 32px;
+        margin-bottom: 32px;
+    }  
+}

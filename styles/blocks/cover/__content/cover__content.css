@@ -1,0 +1,15 @@
+.cover__content {
+    position: absolute;
+    left: 0;
+    bottom: 8.5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 374px) {
+    .cover__content {
+        bottom: 11.1%;
+    }
+}

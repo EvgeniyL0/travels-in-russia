@@ -1,0 +1,19 @@
+.comments__photo {
+    width: 97px;
+    margin-top: 0;
+    margin-bottom: 42px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .comments__photo {
+        order: 1;
+        margin-bottom: 16px;
+    }    
+}
+
+@media screen and (max-width: 374px) {
+    .comments__photo {
+        margin-bottom: 17px;
+    }    
+}

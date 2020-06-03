@@ -1,0 +1,17 @@
+.header__links {
+    margin-top: 17px;
+    margin-bottom: 12px;
+}
+
+@media screen and (max-width: 425px) {
+    .header__links {
+        margin-bottom: 7px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__links {
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+}

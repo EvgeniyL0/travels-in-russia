@@ -1,0 +1,42 @@
+.content-title_place_cover {
+    width: 512px;
+    margin-left: auto;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 65px;
+    font-size: 72px;
+    line-height: 1.08;
+    text-align: center;
+}
+
+@media screen and (min-width: 1025px) {
+    .content-title_place_cover {
+        width: 100%;
+        margin-bottom: 134px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-title_place_cover {
+        width: 70%;
+        margin-bottom: calc((45 / 768) * 100vw);
+        font-size: calc((72 / 768) * 100vw);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .content-title_place_cover {
+        width: 65%;
+        margin-bottom: 7px;
+        font-size: 32px;
+        line-height: 1.09;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .content-title_place_cover {
+        width: 75%;
+    }
+}
+
+
